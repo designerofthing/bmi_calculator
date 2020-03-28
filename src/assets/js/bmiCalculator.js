@@ -10,5 +10,9 @@ const getBMIClassification = (value) => {
         return "Healthy"
     }else if (value < 30){
         return "Overweight"
+    }else if (value > 30){
+        return "Obese"
+    }else{
+        return "mistaken, please enter your weight and height in numbers."
     }
 }

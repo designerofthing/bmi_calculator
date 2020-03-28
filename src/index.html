@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&display=swap" rel="stylesheet">
     <title>BMI Calculator</title>
 </head>
 <body>
     <h1>BMI Calculator</h1>
-    <input type="text" id="weight"  placeholder="Your weight in kg">
-    <input type="text" id="height"  placeholder="Your height in cm">
-    <button onclick="calculateBMI()" id="Calculate">Calculate</button>
+    <div class="inputbutton">
+        <input type="text" id="weight"  placeholder="Your weight in kg">
+        <input type="text" id="height"  placeholder="Your height in cm">
+        <button onclick="calculateBMI()" id="Calculate">Calculate</button>
+    </div>
     <div id="results"></div>
+   
 
     <script src="./assets/js/bmiCalculator.js"></script>
     <script src="./assets/js/bmiUI.js"></script>
