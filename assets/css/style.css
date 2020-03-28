@@ -1,0 +1,51 @@
+body{
+    background-color: #faf4f4;
+    font-family: 'Josefin Slab', serif;
+    color: #5a3f11;
+    padding-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}   
+h3{
+    text-align: center;
+}
+input{
+    padding: 6px;
+}
+input[type="text"]{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Josefin Slab', serif;
+    color: #9c5518;
+}
+button {
+    background-color: #ef962d;
+    font-size: medium;
+    font-weight: 700;
+    font-family: 'Josefin Slab', serif;
+    vertical-align: middle;
+    color: #9c5518;
+    padding: 12px 10px 10px 10px;
+}
+button:hover{
+    background-color: greenyellow;
+}
+
+.inputbutton {
+   position: relative;
+   text-align: center;
+}
+img{
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
